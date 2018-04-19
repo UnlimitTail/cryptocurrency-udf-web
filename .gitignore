@@ -1,3 +1,4 @@
+.next/
 node_modules/
 static/charting_library/
 static/datafeeds/
