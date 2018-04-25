@@ -12,8 +12,8 @@
 1. set udf server url. default code heading to "http://localhost:3000/chart" (#pages/chart/history.js)
     > You can find sample udf server source here. (https://github.com/UnlimitTail/cryptocurrency-udf-server)
 # Start
-1. npm dev -- -p [port]
-    > ie. npm dev -- -p 8080
+1. npm run dev -- -p [port]
+    > ie. npm run dev -- -p 8080
 
 # Test
 1. chart
