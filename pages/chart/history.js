@@ -1,4 +1,5 @@
 import React from 'react'
+import Config from '../../constants/config'
 
 export default (props) => {
 	const symbol = props.url.query.symbol || 'UPBIT:BTC-KRW';
@@ -25,7 +26,7 @@ export default (props) => {
 					interval: 'D',
 					container_id: "tv_chart_container",
 					//	BEWARE: no trailing slash is expected in feed URL
-					datafeed: new Datafeeds.UDFCompatibleDatafeed("http://localhost:3000/chart"),
+					datafeed: new Datafeeds.UDFCompatibleDatafeed("${Config.UDF_URL}/chart"),
 					library_path: "/static/charting_library/",
 					locale: "en",
 					//	Regression Trend-related functionality is not implemented yet, so it's hidden for a while
