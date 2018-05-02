@@ -2,3 +2,4 @@
 node_modules/
 static/charting_library/
 static/datafeeds/
+.DS_Store
